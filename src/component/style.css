@@ -1,0 +1,66 @@
+
+.subcribe
+{
+    
+    position: relative;
+    background-color: #F0EFFC;
+}
+.ui.grid>*
+{
+    padding: 0;
+}
+.subcribe__container
+{
+    /* border-right: 2px solid #AFAFAF; */
+    padding: 120px 140px;
+    
+}
+
+.subcribe__content.ui.segment
+{
+    width: 60% ;
+    text-align:left;
+    font-size: 1rem ;
+    
+    line-height: 1rem;
+    border: none ;
+}
+
+.subcribe__input.ui.input
+{
+    width: 100%;
+    font-size: 0.8rem;
+    border: 2px solid #6B5AEC;
+    margin: 25px 0;
+    border-radius: 5px;
+    
+}
+.subcribe__button.ui.button
+{
+    background-color: #6B5AEC;
+    color: whitesmoke ;
+    font-size: 1rem ;
+    margin-top: 20px ;
+}
+
+
+.container__contact
+{
+    padding: 120px 200px;
+    
+}
+
+.container__content.ui.container__content
+{
+    font-size: 1rem ;
+    border: none ;
+}
+.border
+{
+    width: 1px;
+    height: 70%;
+    background-color: #AFAFAF;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
