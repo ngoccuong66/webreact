@@ -1,18 +1,17 @@
 import React from 'react';
-import PokedexHeader from './component/PokedexHeader'
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
-import Nav from './component/Nav';
 import Carousel from './component/Carousel'
-import Sticky from './component/Sticky'
-import Contact from './component/Contact';
+import Nav from './component/Nav/index';
+import { Router, BrowserRouter } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-         
-          <Carousel></Carousel>
+         <BrowserRouter>
+          <Nav />
+          </BrowserRouter>
 
     </div>
   );

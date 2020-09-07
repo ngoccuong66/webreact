@@ -1,0 +1,28 @@
+.nav-page {
+    margin: 25px 30px;
+    .menu-header {
+        .wide {
+            display: flex !important;
+            align-items: center;
+            .ui.floated.image {
+                margin-bottom: 0;
+            }
+        }
+        .twelve {
+            justify-content: flex-end;
+            .huge {
+                .menu {
+                    .button {
+                        height: 47px;
+                        width: 128px;
+                        background-color: #6B5AEC;
+                        color:#FFFFFF;
+                        font-size: 1.2rem
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+}
